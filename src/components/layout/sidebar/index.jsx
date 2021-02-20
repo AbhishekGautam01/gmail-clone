@@ -7,8 +7,8 @@ import {
   SidebarButtonItem,
   SideButtonsWrapper,
 } from './styles/sidebar';
-import { Compose } from '../../components/buttons';
-import { sidebarButtonItems } from '../../data/SidebarButtonItems';
+import { Compose } from '../../buttons';
+import { sidebarButtonItems } from '../../../data/SidebarButtonItems';
 export default function Sidebar() {
   return (
     <Wrapper>
